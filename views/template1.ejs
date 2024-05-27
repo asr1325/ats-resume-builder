@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+
+    .name p{
+        display: inline;
+        font-size: 30px;
+    }
+
+    .heading{
+        font-family: "Playfair", serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .mainn{
+        border: 1px solid lightgray;
+        padding: 20px;
+    }
+
+    .line{
+        display: inline;
+        font-size: 20px;
+    }
+
+    body{
+      width: 195mm; /* Width of A4 paper */
+      height: 279mm; /* Height of A4 paper */
+      margin: 2%;
+      padding: 0;
+    }
+
+</style>
+
+<body>
+    <div class="mainn">
+        <div class="name">
+            <p class="heading"><%= firstname%><p class="heading"><%= lastname%></p></p>
+            <br>
+            <br>
+        </div>
+        <p style="display: inline;"><%= email%></p> &nbsp;&nbsp;<span name="contact">| <%= contact%> |</span> &nbsp;&nbsp;<span><%= linkedin%></span>
+        
+        <p class="heading">Summary</p>
+        <p>
+            <%= summary%></p>
+        
+        <p class="heading">Education</p>
+        <p class="line"><%= degree%></p>, &nbsp;<p class="line"><%= university%></p> , &nbsp; <p class="line"><b><%= gpa%></b></p>
+        <p>
+            lorem ipsum gha bshb sdb sdsd fgbsbdshbg 
+        </p>
+
+        <p class="heading">Work Experience</p>
+        <p><%= role%></p>
+        <p class="line"><%= company%></p> &nbsp; <p class="line"><%= duration%></p>
+        <p>
+            <%= work%>
+        </p>
+
+
+        <p class="heading">Certifications</p>
+            <p><b><%= course%></b>- <span style="text-align: right;"><%= institute%></span> 
+
+        <p class="heading">Skills</p>
+        <p><%= skill%></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeBuilder</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav> 
+        <ul>
+            <span class="logos">
+               resumeBuilder
+            </span>
+            <li><a href="#">About Us</a></li>
+            <li><a href="./temp">Templates</a></li>
+        </ul>
+    </nav>
+    <form method="POST" action="/submit">
+        <div class="resume-form">
+            <div class="left">
+                <div class="basic">
+                    <br>
+                    <p class="head">Basic Details</p><br>
+                    <label for="firstname">First Name</label><br>
+                    <input type="text" id="firstname" name="firstname" placeholder="John">&nbsp
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Doe">
+                    <br><br>
+                    <label for="email">Email</label><br>
+                    <input style="padding-right: 35px;" type="email" id="email" name="email" placeholder="abcde@gmail.com">
+                    <br><br>
+                    <label for="contact">Contact</label><br>
+                    <input type="tel" id="contact" name="contact" placeholder="2351842318">
+                    <br><br>
+                    <label for="linkedin">LinkedIn</label><br>
+                    <input type="url" id="linkedin" name="linkedin" placeholder="linkedin/profile">
+                    <br><br>
+                    <p class="head">Professional Summary</p>
+                    <br>
+                    <textarea id="summary" name="summary" cols="50" rows="5"></textarea>
+                </div>
+                <br>
+                <div class="basic">
+                    <p class="head">Education</p><br>
+                    <label for="degree">Degree</label><br>
+                    <input type="text" id="degree" name="degree" placeholder="MS">
+                    <br><br>
+                    <label for="university">University</label><br>
+                    <input type="text" id="university" name="university" placeholder="University of Lorem Ipsum"> <input type="number" id="year" name="year" placeholder="2020-2023">
+                    <br><br>
+                    <label for="gpa">GPA</label><br>
+                    <input type="number" id="gpa" name="gpa" placeholder="3.85"> 
+                </div>
+                <br><br>
+            </div>
+            
+            <div class="right">
+                <div class="basic">
+                    <br>
+                    <p class="head">Work Experience</p>
+                    <br><br>
+                    <label for="role">Role</label>
+                    <br>
+                    <input type="text" id="role" name="role" placeholder="FrontEnd Developer">
+                    <br><br>
+                    <label for="company">Company</label><br>
+                    <input type="text" id="company" name="company" placeholder="Microsoft">
+                    <br><br>
+                    <label for="duration">Duration</label>
+                    <br>
+                    <input type="text" id="duration" name="duration" placeholder="mm-yy TO mm-yy">
+                    <br><br>
+                    <label for="work">Work Done</label><br>
+                    <textarea id="work" name="work" cols="50" rows="5" placeholder="Done lorem ipsum in lorem company"></textarea>
+                </div>
+                <br>
+                <div class="basic">
+                    <p class="head">Certifications</p>
+                    <input type="text" name="course" id="course" placeholder="Introduction to Lorem-Ipsum">
+                    <input type="text" name="institute" id="institute" placeholder="Meta Inc, 2024">
+                </div>
+                <br>
+                <div class="basic">
+                    <p class="head">Skills</p>
+                    <textarea id="skill" name="skill" cols="60" rows="4"></textarea>
+                    <br><br>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/new.png");
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.logos{
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    padding-left: 50px;
+    cursor:none;
+}
+
+li{
+    display: inline;
+    padding-right: 40px;
+    float: right;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../images/new.png");
+    background-size: cover;
+    padding: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.one{
+    font-size: 56px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    word-wrap: break-word;
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.two{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.two img{
+    height: 340px;
+    width: 410px;
+}
+
+.accept{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.accept img{
+    height: 95px;
+    width: 100px;
+    
+}
+
+
+.ad{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.pic{
+    padding: 50px;
+    background-image: url(../images/asdsa.png);
+    flex-grow: 1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center;
+
+}
+
+.pic1{
+    padding: 40px;
+    flex-grow: 2;
+    background-image: url(../images/asdsa.png);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center;
+}
+
+
+.text{
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    flex-grow: 1;
+    padding: 15px;
+
+}
+
+.heading{
+    font-weight: bolder;
+    font-size: 52px;
+    text-align: center;
+}
+
+img{
+    height: 480px;
+    width: 360px;   
+}
+
+.createbtn{
+    display: flex;
+    justify-content: center; 
+}
+
+.createbtn a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.createbtn button{
+    border: 2px darkgray;
+    border-radius: 20px;
+    background-color:#01629C;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 22px;
+    width: 15%;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.heading1{
+    padding: 8px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 32px;
+}
+
+textarea{
+    resize: none;
+}
+
+.head{
+    font-size: 28px;
+    font-weight: bold;
+    font-family:"DM Sans", sans-serif;
+    color: #000000;
+}
+
+.basic{
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+textarea{
+    border: 1px solid darkslategray;
+}
+
+input{
+    width: 30%;
+}
+
+.basic input{
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.resume-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.left{
+    flex-grow: 1;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.right{
+    flex-grow: 1;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 25px;
+}
+
+.submit-btn{
+    padding: 10px;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: #01629C;
+    color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.main2{
+    padding: 20px;
+    border: 1px solid lightgray;
+}
