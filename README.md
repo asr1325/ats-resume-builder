@@ -1,13 +1,42 @@
-#ats-resume-builder
+# ATS Resume Builder
 
-generates a resume without the hassle of signup and logins.
+## Description
+ATS Resume Builder is a web app for creating resumes optimized for Applicant Tracking Systems (ATS), making them easy for employers to parse and understand.
 
-#INSTALLATION 
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
-npm init.
-npm i express, nodemon, ejs.
+## Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/asr1325/ats-resume-builder.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd ats-resume-builder
+    ```
+3. **Install Dependencies:**
+   
+    - Install the dependencies:
+      ```sh
+      npm install
+      ```
+
+## Usage
+1. **Start the Server:**
+   
+    - Start the server:
+      ```sh
+      nodemon script.js
+      ```
+    - The application will run on `http://localhost:3000`.
 
 
-#USAGE 
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request.
 
-nodemon .\script.js
+## Contact
+Aditya Singh - aditya.s.rawat21@gmail.com
